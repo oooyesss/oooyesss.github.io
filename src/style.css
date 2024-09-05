@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.editor-toolbar {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.editor-content {
+  flex: 1;
+  overflow: auto;
+  padding: 10px;
+}
+
+.editor-buttons button {
+  margin-right: 5px;
+}
+
+.editor-buttons select, .editor-buttons input[type="color"] {
+  margin-right: 5px;
+}
