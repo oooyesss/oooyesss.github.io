@@ -24,9 +24,3 @@ This is a React-based advanced text editor with rich text formatting capabilitie
 
 Make sure you have Node.js and npm installed on your machine. You can download and install them from [nodejs.org](https://nodejs.org/).
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/oooyesss/oooyesss.github.io npm install lucide-react
