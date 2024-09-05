@@ -1,14 +1,11 @@
-<!-- public/index.html -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Text Editor</title>
-  <link rel="stylesheet" href="@/public/styles.css">
-</head>
-<body>
-  <div id="root"></div>
-</body>
-</html>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { AdvancedTextEditor } from './AdvancedTextEditor';
+import './styles.css';  // Import CSS here
+
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(<AdvancedTextEditor />);
+}
